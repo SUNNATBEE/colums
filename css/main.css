@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Big Shoulders Display",   "Lexend Deca", "Arial" , sans-serif;
+}
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cars-info-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars-info-about{
+    width: 307px;
+    height: 500px;
+    border-radius: 8px;
+    list-style: none;
+    padding-top: 48px; 
+    padding-left: 48px;
+}
+.sedans{
+   background: #e28625;
+}
+.cars-info-title{
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #f2f2f2;
+}
+.cars-info-text-second{
+    width: 212px;
+}
+.cars-info-text{
+    font-family:  "Lexend Deca", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 83px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+   
+}
+.cars-sedan{
+    color: #E28625;
+}
+
+.cars-info-link{
+    font-family:  "Lexend Deca", "Arial", sans-serif;
+    width: 146px; ;
+    padding: 11px 31px 12px 31px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 25px;
+    background: #F2F2F2;
+    text-decoration: none;    
+}
+.cars-info-link:hover{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff; 
+}
+.suvs{
+    background: #006971;
+}
+.cars-suvs{
+    color: #006971;
+}
+.luxury{
+    background: #004140;
+}
+.cars-luxury{
+    color: #004140;
+}
